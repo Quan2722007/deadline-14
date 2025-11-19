@@ -17,7 +17,7 @@
         .container {
             .container__header {
                 max-width: none;
-                width: 100%;
+                width: 95%;
                 .Logo {
                     display: none;
                 }
@@ -48,7 +48,7 @@
             .g16 {
                 position: absolute;
                 top: 52%;
-                right: 0;
+                right: 22px;
                 .button--change {
                     width: 45px;
                     height: 45px;
