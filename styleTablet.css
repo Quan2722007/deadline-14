@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+    .background__header {
+        height: 740px;
+        .header__picture {
+            width: 100%;
+            top: 0;
+            height: 56%;
+            background-size: cover;
+            background-position: center;
+        }
+        .g106 {
+            gap: 0;
+        }
+        .container {
+            .container__header {
+                max-width: none;
+                width: 100%;
+                .Logo {
+                    display: none;
+                }
+                .LogoWhite {
+                    display: block;
+                    width: 240px;
+                    height: 35px;
+                }
+                .navbar {
+                    display: none;
+                }
+                .Nav {
+                    display: block;
+                    width: 35px;
+                    height: 28px;
+                }
+            }
+            .container__herosection {
+                .box__herosection {
+                    .title {
+                        line-height: 40px;
+                    }
+                }
+                .button {
+                    margin-bottom: 46px;
+                }
+            }
+            .g16 {
+                position: absolute;
+                top: 52%;
+                right: 0;
+                .button--change {
+                    width: 45px;
+                    height: 45px;
+                    .click {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        padding: 50px 0 46.44px 0;
+        .container {
+            .section_1 {
+                .Box_1 {
+                    .wrap {
+                        .box__button {
+                            .button--change {
+                                width: 30px;
+                                height: 30px;
+                                .click {
+                                    width: 15px;
+                                    height: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Box_2 {
+                    overflow-x: hidden;
+                    position: relative;
+                    max-width: none;
+                    width: 1025px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    .block {
+                        position: relative;
+                        width: 335px;
+                        height: 203.8963623046875px;
+                        .picture {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .block__infor {
+                            position: absolute;
+                            bottom: 0;
+                            background-color: #d9d9d9b2;
+                            .g10 {
+                                gap: 0;
+                                padding: 0 13px;
+                                .content {
+                                    text-align: justify;
+                                    span {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            .button {
+                                padding: 0 13px;
+                            }
+                        }
+                    }
+                }
+            }
+            .section_1 .Box_2::-webkit-scrollbar {
+                display: none;
+            }
+            .section_2 {
+            }
+            .section_2 .Box_card::-webkit-scrollbar {
+                display: none;
+            }
+            .section_3 {
+                .box__infor {
+                    max-width: none;
+                    .button {
+                        width: 158px;
+                        height: 43px;
+                    }
+                }
+            }
+            .section_4 {
+                .g34 {
+                    .card {
+                        display: none;
+                    }
+                    .arrow {
+                        display: none;
+                    }
+                }
+            }
+            .g65 {
+                gap: 52.38px;
+            }
+        }
+    }
+    .background__footer {
+        .container {
+            .footer {
+                .Box_2 {
+                    .menu {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

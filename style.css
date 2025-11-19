@@ -1,0 +1,525 @@
+html {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    position: relative;
+    max-width: 1440px;
+    width: 95%;
+}
+.background__header {
+    background-color: #465564;
+    position: relative;
+    height: 818px;
+    .header__picture {
+        background-image: url("picturre/picture__header.png");
+        width: 65%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+    }
+    .background__showder {
+        background-image: url("picturre/background__showder.png");
+        z-index: 1;
+    }
+    .container {
+        .container__header {
+            margin-top: 40px;
+            max-width: 1180px;
+            width: 95%;
+            height: 60px;
+            .Logo {
+                width: 257px;
+                height: 46px;
+            }
+            .LogoWhite {
+                display: none;
+            }
+            .navbar {
+                max-width: 581px;
+                width: 100%;
+                .menu {
+                    max-width: 370px;
+                    width: 100%;
+                    color: white;
+                }
+                .button {
+                    max-width: 180px;
+                    width: 100%;
+                    background-color: #4caf50;
+                    height: 60px;
+                    color: white;
+                }
+            }
+            .Nav {
+                display: none;
+            }
+        }
+        .container__herosection {
+            max-width: 1180px;
+            width: 95%;
+            .box__herosection {
+                max-width: 694px;
+                width: 100%;
+                .describe {
+                    color: white;
+                    .pc {
+                        display: block;
+                    }
+                    .mobile {
+                        display: none;
+                    }
+                }
+                .title {
+                    line-height: 80px;
+                    font-family: "Roboto";
+                    color: white;
+                    span {
+                        color: #4caf50;
+                    }
+                }
+                .content {
+                    max-width: 369px;
+                    width: 100%;
+                    height: auto;
+                    color: #ebebeb;
+                }
+            }
+            .button {
+                max-width: 206px;
+                width: 100%;
+                height: 60px;
+                background-color: #4caf50;
+                color: white;
+            }
+            .button--change {
+                width: 60px;
+                height: 60px;
+                background-color: #ffffffcf;
+                color: #4caf50;
+                .click {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+section {
+    max-width: 1180px;
+    width: 95%;
+}
+main {
+    padding: 100px 0 81px 0;
+    .section_1 {
+        .Box_1 {
+            max-width: 617.5968017578125px;
+            width: 100%;
+            .box__infor {
+                max-width: 429px;
+                width: 100%;
+                .title {
+                    color: #4b4b4b;
+                    span {
+                        color: #4caf50;
+                    }
+                }
+                .content {
+                    color: #4b4b4b;
+                }
+            }
+            .wrap {
+                width: 100%;
+                height: 561.76px;
+                position: relative;
+                .picture_1 {
+                    position: absolute;
+                    left: 0;
+                    max-width: 594.758056640625px;
+                    width: 95%;
+                    height: 532px;
+                    background-size: cover;
+                    object-fit: cover;
+                    z-index: 10;
+                    box-shadow: 0px 4px 30px 0px #0000001a;
+                }
+                .background__box {
+                    z-index: 0;
+                    max-width: 581.4355px;
+                    width: 95%;
+                    height: 536px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background-color: #c8e6c9;
+                }
+                .box__button {
+                    z-index: 20;
+                    position: absolute;
+                    right: 37.6px;
+                    bottom: 14px;
+                    .button--change {
+                        width: 60px;
+                        height: 60px;
+                        background-color: #ffffffcf;
+                        color: #4caf50;
+                        .click {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .Box_2 {
+            max-width: 516.725830078125px;
+            width: 100%;
+            height: auto;
+            .block {
+                display: flex;
+                gap: 22.84px;
+                width: 100%;
+                height: auto;
+                .picture {
+                    box-shadow: 0px 4px 30px 0px #0000001a;
+                    width: 192.2258px;
+                    height: 202px;
+                }
+                .block__infor {
+                    .title {
+                        color: #4b4b4b;
+                    }
+                    .content {
+                        color: #4b4b4b;
+                    }
+                }
+                .button {
+                    .letter {
+                        color: #4b4b4b;
+                    }
+                    .next {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .section_2 {
+        .title {
+            color: #4b4b4b;
+            span {
+                color: #4caf50;
+            }
+        }
+        .button {
+            .letter {
+                color: #4b4b4bb0;
+            }
+            .next {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .menu {
+            max-width: 260px;
+            width: 100%;
+            color: #4b4b4b;
+            .letter {
+                opacity: 70%;
+            }
+        }
+        .Box_card {
+            position: relative;
+            width: 1180px;
+            left: 50%;
+            transform: translateX(-50%);
+            .card {
+                width: 280px;
+                height: 400px;
+                background-color: #c8e6c9;
+                position: relative;
+                .card__infor {
+                    max-width: 237px;
+                    width: 100%;
+                    .letter {
+                        color: #3333334d;
+                    }
+                    .background__price {
+                        max-width: 128px;
+                        width: 100%;
+                        height: 44px;
+                        background-color: #ffffff73;
+                        backdrop-filter: blur(4px);
+                        color: #4caf50;
+                    }
+                }
+                .item1 {
+                    width: 159px;
+                    height: 238px;
+                    position: absolute;
+                    top: 112px;
+                    right: 24px;
+                }
+                .item2 {
+                    top: 98px;
+                    right: 19px;
+                }
+                .item3 {
+                    width: 237px;
+                    height: 288px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 8px;
+                }
+                .item4 {
+                    width: 246px;
+                    height: 290px;
+                    position: absolute;
+                    bottom: 25px;
+                    right: 0;
+                }
+            }
+        }
+    }
+    .section_3 {
+        .box__infor {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            .title {
+                color: #181818;
+                span {
+                    color: #4caf50;
+                }
+            }
+            .content {
+                color: #181818;
+            }
+            .Box__input {
+                .input {
+                    padding: 0;
+                    outline: none;
+                    width: 99.5%;
+                    height: 54px;
+                    border: 2px solid #4caf50;
+                    background-color: #f6f6f6;
+                }
+                .input::placeholder {
+                    padding-left: 16px;
+                    color: #ababab;
+                }
+                .text {
+                    padding: 0;
+                    outline: none;
+                    width: 99.5%;
+                    height: 89px;
+                    background-color: #f6f6f6;
+                    border: 2px solid #4caf50;
+                }
+                .text::placeholder {
+                    padding: 17px 0 0 16px;
+                    color: #ababab;
+                }
+            }
+            .button {
+                width: 187px;
+                height: 60px;
+                background-color: #4caf50;
+                color: white;
+            }
+        }
+        .Box {
+            position: relative;
+            max-width: 621.5584106445312px;
+            width: 100%;
+            height: 564px;
+            .Maps {
+                max-width: 594.76px;
+                width: 95%;
+                height: 532px;
+                position: absolute;
+                right: 0;
+                background-size: cover;
+                object-fit: cover;
+                z-index: 15;
+                box-shadow: 0px 4px 30px 0px #0000001a;
+            }
+            .background__box {
+                max-width: 577.096435546875px;
+                width: 95%;
+                height: 532px;
+                background-color: #c8e6c9;
+                position: absolute;
+                bottom: 0;
+                z-index: 10;
+            }
+        }
+    }
+    .section_4 {
+        .title {
+            color: #000000;
+            span {
+                color: #4caf50;
+            }
+        }
+        .card {
+            position: relative;
+            max-width: 325px;
+            width: 100%;
+            height: 348px;
+            opacity: 80%;
+            .card__infor {
+                width: 100%;
+                height: 276px;
+                border-radius: 8px;
+                background-color: #f6f6f6;
+                box-shadow: 0px 4px 30px 0px #0000001a;
+                border: 1px solid #c8e6c9;
+                .icon {
+                    width: 24px;
+                    height: 24px;
+                }
+                .content {
+                    max-width: 244px;
+                    width: 100%;
+                    height: auto;
+                    font-family: "Inter";
+                    color: #2d2e2e;
+                    line-height: 22px;
+                }
+            }
+            .card__infor--changeBackground {
+                width: 100%;
+                height: 276px;
+                border-radius: 8px;
+                background-color: #c8e6c9;
+                box-shadow: 0px 4px 30px 0px #0000001a;
+                .content--change {
+                    max-width: 277px;
+                    width: 100%;
+                    height: auto;
+                    font-family: "Inter";
+                    color: #2d2e2e;
+                    line-height: 22px;
+                }
+            }
+            .card__box {
+                position: absolute;
+                bottom: 0;
+                .avatar {
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+        }
+        .card--change {
+            position: relative;
+            max-width: 325px;
+            width: 100%;
+            height: 348px;
+            opacity: 100%;
+            .card__infor--changeBackground {
+                width: 100%;
+                height: 276px;
+                border-radius: 8px;
+                background-color: #c8e6c9;
+                box-shadow: 0px 4px 30px 0px #0000001a;
+                .content--change {
+                    max-width: 277px;
+                    width: 100%;
+                    height: auto;
+                    font-family: "Inter";
+                    color: #2d2e2e;
+                    line-height: 22px;
+                }
+            }
+            .card__box {
+                position: absolute;
+                bottom: 0;
+                .avatar {
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+        }
+    }
+}
+.background__footer {
+    background-color: #465564;
+    width: 100%;
+    padding: 54px 0;
+    .footer {
+        max-width: 1180px;
+        width: 95%;
+        .Box_1 {
+            padding: 23px 0;
+            border-bottom: 1px solid #4caf50;
+            .title {
+                color: white;
+                span {
+                    color: #4caf50;
+                }
+            }
+            .content {
+                color: #fefeff;
+            }
+            .search_bar {
+                max-width: 457px;
+                width: 100%;
+                height: 56px;
+                .search_PC {
+                    background-color: #f6f6f6;
+                    outline: none;
+                    border: 2px solid #4caf50;
+                    width: 100%;
+                    flex-grow: 1;
+                    height: 100%;
+                    padding-left: 16px;
+                }
+                .search_PC::placeholder {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                .search_Mobile {
+                    display: none;
+                }
+                .button {
+                    width: 154px;
+                    height: 100%;
+                    background-color: #4caf50;
+                    color: white;
+                }
+            }
+        }
+        .Box_2 {
+            .logo {
+                width: 257px;
+                height: 46px;
+            }
+            .menu {
+                max-width: 331px;
+                width: 100%;
+                color: #fefeff;
+            }
+            .box_icon {
+                max-width: 138.71473693847656px;
+                width: 100%;
+            }
+        }
+    }
+}
