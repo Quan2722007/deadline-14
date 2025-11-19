@@ -24,10 +24,11 @@ body {
     height: 818px;
     .header__picture {
         background-image: url("picturre/picture__header.png");
-        width: 65%;
+        width: 63%;
         height: 100%;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
+        max-width: 930px;
+        background-size: cover;
+        object-fit: cover;
         position: absolute;
         right: 0;
         z-index: 0;
@@ -492,6 +493,8 @@ main {
                     padding-left: 16px;
                 }
                 .search_PC::placeholder {
+                    display: flex;
+                    align-items: center;
                     font-size: 16px;
                     font-weight: 400;
                 }

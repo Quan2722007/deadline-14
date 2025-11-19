@@ -1,6 +1,7 @@
 @media only screen and (max-width: 660px) {
     .container {
-        max-width: 375px;
+        max-width: 660px;
+        width: 100%;
     }
     .background__header {
         height: 734px;
@@ -9,9 +10,11 @@
         }
         .container {
             .container__header {
-                max-width: 337px;
+                padding: 0 13px;
+                max-width: 660px;
                 height: 70px;
                 margin-top: 0;
+                border-bottom: 2px solid #4caf50;
                 .LogoWhite {
                     width: 135px;
                     height: 15px;
@@ -22,7 +25,7 @@
                 }
             }
             .container__herosection {
-                max-width: 337px;
+                max-width: 660px;
                 .box__herosection {
                     .describe {
                         .pc {
@@ -52,13 +55,14 @@
         }
     }
     section {
-        max-width: 337px;
+        max-width: 660px;
     }
     main {
         .container {
             .section_1 {
                 .Box_1 {
                     .wrap {
+                        max-width: 335px;
                         height: 315.17px;
                         .picture_1 {
                             max-width: 322.6116943359375px;
@@ -80,6 +84,7 @@
                 }
                 .Box {
                     height: 303.9779px;
+                    max-width: 335px;
                     .Maps {
                         max-width: 320.5565185546875px;
                         height: 286.7309px;
@@ -103,7 +108,7 @@
         padding: 20px 0;
         .container {
             .footer {
-                max-width: 337px;
+                max-width: 660px;
                 .Box_1 {
                     padding: 0 0 14px 0;
                     .search_bar {
