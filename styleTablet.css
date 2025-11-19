@@ -5,6 +5,7 @@
     .background__header {
         height: 740px;
         .header__picture {
+            max-width: none;
             width: 100%;
             top: 0;
             height: 56%;
